@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>textING</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+    <header> textING</header>
+        <nav><span id="mAccueil"><a href="#">Accueil</a></span><span id="mQuestions"><a href="#">Questions</a></span> <span id="mProb"><a href="#">Problèmes</a></span> <span id="mAmelio">Améliorations</span></nav>
+    
+        
+        <section id="sectionAccueil">
+            <h2>Coordonnées du client</h2>
+        <p>Nom : <input id="iNom"></input></p>
+        <p>Prenom : <input id="iPrenom"></input></p>
+        <p>Age : <input id="iAge"></input></p>
+        <button id="enregistrer">Enregistrer</button>
+        </section>
+
+<div id="r"></div>
+        
+
+        <section id="sectionQuestions">
+            <h2>Questions posées par le client</h2>
+            <center><textarea id="iQuestion">
+        </textarea></center>
+        </section>
+
+        <section id="sectionProbleme">
+            <h2>Problèmes rencontrés</h2>
+            <center><textarea id="iProbleme">
+        </textarea></center>
+        </section>
+        
+        
+    
+    <script type="text/javascript" src="jquery-2.1.0.js"> </script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.js"> </script>
+    <script type="text/javascript" src="main.js"> </script>
+
+    </body>
+</html>

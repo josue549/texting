@@ -1,0 +1,86 @@
+html {
+    background-color: #e6e9e9;
+    background-image: linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    background-image: -o-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    background-image: -moz-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    background-image: -webkit-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    background-image: -ms-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0em 0em 0em;
+    max-width: 800px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #545454;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    
+}
+
+h1,h2 {
+ padding: 0em 1em 0em;   
+    
+}
+#iProbleme, #iQuestion {
+    height: 400px;
+    width: 97%;
+    background-color: transparent;
+    border-color: transparent;
+    background-image: url('linedpaper.png');
+    background-repeat: round;
+    border: none;
+    
+}
+p {
+ padding: 1em 1em 1em;   
+    
+    
+}
+
+header {
+ background-color:    #f0dd48;
+    margin: 0;
+    border: 0;
+    padding: 0.8em 0.8em 0.8em;
+    font-size: 60px;
+}
+
+nav {
+ background-color:  #f8eb7e;
+    padding: 0.5em 0.5em 0.5em;
+    border-color: transparent;
+    
+    
+    
+}
+button
+{  
+    margin : 1em 1em 1em;  
+}
+input {
+ border-top: none;  
+    border-left: none;
+    
+}
+#mAccueil {
+    padding: 2em 2em 2em;
+    
+}
+#mQuestions {
+    padding: 2em 2em 2em;
+    
+}
+#mProb {
+    padding: 2em 2em 2em;
+    
+}
+#mAmelio {
+    padding: 2em 2em 2em;
+    
+}
