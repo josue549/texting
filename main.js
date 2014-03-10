@@ -12,7 +12,7 @@ $('#enregistrer').click(function() {
 $('#onglets').tabs();
 
 setInterval(reg_txt(), 5000);
-
+//COMMENTAIRE
 function accueil()
 {
   $('#sectionQuestions').hide();
