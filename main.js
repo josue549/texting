@@ -13,6 +13,7 @@ $('#onglets').tabs();
 
 setInterval(reg_txt(), 5000);
 //COMMENTAIRE
+//second commentaire test git
 function accueil()
 {
   $('#sectionQuestions').hide();
