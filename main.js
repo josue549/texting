@@ -13,11 +13,8 @@ $('#onglets').tabs();
 
 setInterval(reg_txt(), 5000);
 //COMMENTAIRE
-<<<<<<< HEAD
 //Et un troisième commentaire youhouh
-=======
 //second commentaire test git
->>>>>>> d9a11a58fc1f6011782e46a94d79010e72aee959
 function accueil()
 {
   $('#sectionQuestions').hide();
