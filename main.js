@@ -13,6 +13,7 @@ $('#onglets').tabs();
 
 setInterval(reg_txt(), 5000);
 //COMMENTAIRE
+//Et un troisième commentaire youhouh
 function accueil()
 {
   $('#sectionQuestions').hide();
